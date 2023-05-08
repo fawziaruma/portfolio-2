@@ -103,12 +103,11 @@ body{
     border: 3px solid #ff8000;
     width: 230px;
     height: 250px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .sec-one h2{
     color: white;
-    font-size: 2.25rem;
-    word-wrap: break-word;
+    font-size: 2.25rem; 
     font-family: Ubuntu, sans-serif;
 }
 .sec-one{
@@ -147,4 +146,45 @@ body{
     border: none;
     padding: 10px;
     margin-left: 35px;
+}
+/* ......content...... */
+.clr{
+    background-color: #ff8000;
+    height: 650px;
+    position: relative;
+    margin-top: 30px;
+}
+.c-text{
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 250px;
+    
+}
+.c-h{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.c-p{
+    font-weight: 700;
+    font-size: 25px;
+}
+.c-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1100px;
+}
+.c-one{
+    margin-top: 300px;
+    margin-left: 150px;
+    
+}
+.c-one h1{
+    color: white;
+    font-size: 30px;
+}
+.c-one p{
+    font-size: 15px;
+    font-weight: 400;
 }
