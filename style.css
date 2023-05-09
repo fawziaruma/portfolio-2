@@ -254,6 +254,77 @@ input[type=text] {
     padding: 13px;
     border-radius: 5px;
     font-size: 20px;
-
+  }
+  /* .........last card....... */
+  .last-one{
+    width: 260px;
+    height: 250px;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 
   }
+  .last-one p{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .last-one h1{
+    margin-top: 25px;
+  }
+  .fa-solid{
+    width: 61px;
+    height: 45px;
+    border: 2px solid #ff8000;
+    padding-top: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ff8000;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .fa-regular{
+    width: 61px;
+    height: 45px;
+    border: 2px solid #ff8000;
+    padding-top: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ff8000;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .last-card{
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 70px;
+    gap: 30px;
+    margin-left: 150px;
+  }
+  .last-one a{
+    color: #ff8000;
+  }
+  .last-one span{
+    color: #ff8000;
+  }
+  /* .........footer......... */
+  footer{
+    height: 200px;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 50px;
+    text-align: center;
+  }
+  footer p{
+    padding-top: 40px;
+    line-height: 80px;
+  }
+  footer a{
+    color: white;
+  }
+  
