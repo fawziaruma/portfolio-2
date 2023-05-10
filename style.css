@@ -123,6 +123,16 @@ body{
     border-radius: 5px;
     background-color: #ff8000;
 }
+.rum h4{
+    margin-top: 160px;
+    color: #333333;
+    font-size: 20px;
+}
+hr{
+    width: 40px;
+    margin-left: 5px;
+    
+}
 
 .ruma{
     display: grid;
